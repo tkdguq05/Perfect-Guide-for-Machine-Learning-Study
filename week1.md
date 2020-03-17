@@ -16,7 +16,7 @@ score_array = [80,77,99,100]
 score_array를 argsort해서 나온 인덱스를 name_array에 적용하면 된다
 
 3. 질문 : 벡터의 내적은 스칼라?, 외적은 벡터?  
-   추후 해결
+   추후 해결, [Linear Algebra 개념 잡기](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
 ## 책을 보면서 인상적인 부분
 **인상적인 부분**
