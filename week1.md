@@ -7,15 +7,13 @@
 
 ## 스터디 중 나온 질문 답변
 1. 질문 : 1차원 배열은 column만 갖고 있는 것인가?, 열벡터? 
-
- 답변 : column 자체가 없는 거고 열벡터로 이루어진 것
+   답변 : column 자체가 없는 거고 열벡터로 이루어진 것
 
 2. 질문 : Fancy index를 사용하는 경우?
-
- 답변 : 시험성적과 이름을 매칭 시키고 싶을때 사용할 수 있다.  
-ex) name_array = ['Lee','Park','Kwon','Kim']
-score_array = [80,77,99,100]
-score_array를 argsort해서 나온 인덱스를 name_array에 적용하면 된다
+   답변 : 시험성적과 이름을 매칭 시키고 싶을때 사용할 수 있다.  
+   ex) name_array = ['Lee','Park','Kwon','Kim']
+   score_array = [80,77,99,100]
+   score_array를 argsort해서 나온 인덱스를 name_array에 적용하면 된다
 
 3. 질문 : 벡터의 내적은 스칼라?, 외적은 벡터?  
    추후 해결, [Linear Algebra 개념 잡기](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
