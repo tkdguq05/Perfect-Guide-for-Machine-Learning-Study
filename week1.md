@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.io/tkdguq05/Perfect-Guide-for-Machine-Learning-Study.svg)](http://hits.dwyl.io/tkdguq05/Perfect-Guide-for-Machine-Learning-Study)
+
 # 파이썬 머신러닝 완벽가이드 스터디 1회
 20.03.16 스터디 1회   
 19시부터 진행함 
