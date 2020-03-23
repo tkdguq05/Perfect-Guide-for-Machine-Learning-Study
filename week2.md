@@ -19,7 +19,7 @@
 **인상적인 부분** 
 - df.values.to_dict()에서  str {'dict', 'list', 'series', 'split', 'records', 'index'} 로 다양하게 사용할 수 있는 점
 - groupby 후 agg 사용할 때, agg_format = {'Age':'max','SibSp':'sum','Fare':'mean'} 묶어서 사용할 수 있는 점
-- apply쓰는 게 열 가져와서 처리할 때 사용한다. 사실 열 가져와서 처리하는 방법은 다양하다. for문, iterrows도 존재함. list comprehension, 병렬연산의 속도 차이 결과. for문이 가장 느림, 병렬처리가 가장 빠름. numpy 병렬처리가 pandas 병렬처리보다 빠름. .values만 붙여서 돌려도(numpy ndarray) 훨씬 빠름 
+- apply쓰는 게 열 가져와서 처리할 때 사용한다. 사실 열 가져와서 처리하는 방법은 다양하다. for문, iterrows도 존재함. list comprehension, 병렬연산의 속도 차이 결과. for문이 가장 느림, 병렬처리가 가장 빠름. numpy 병렬처리가 pandas 병렬처리보다 빠름. .values만 붙여서 돌려도(numpy ndarray) 훨씬 빠름  
 [굼뜬 pandas를 위한 다이어트 방법!](https://www.pycon.kr/program/talk-detail?id=73)
 - **p.51에서 dict 객체 할당하는 흉악한 코드 발견! 이건 책에서 수정해야 할듯**
 - index에 문자열 넣는 것도 가능하다는 점
