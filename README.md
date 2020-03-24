@@ -14,5 +14,5 @@
 2. 모르는 내용에 대해 서로 알려주기 : 모두 잘 알수는 없어요. 내가 모르는 내용을 다른 분이 알 수 있어요. 돕고 살아요
 3. 바로 물어보기 : 토론식 스터디라 바로 물어봐도 괜찮아요
 
-![책 코드](https://github.com/wikibook/ml-definitive-guide)
+[책 코드](https://github.com/wikibook/ml-definitive-guide)
 ![책 파이썬 머신러닝 완벽가이드](http://image.yes24.com/momo/TopCate2162/MidCate010/216194633.jpg)
