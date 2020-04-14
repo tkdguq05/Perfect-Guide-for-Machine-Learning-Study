@@ -31,4 +31,7 @@
 	
 	$var[\frac{1}{n}\sum_{i=1}^{n}x_{i}]=\frac{\sigma^2}{n}$	
 	
+- Bias Variance Trade off
+![trade off](https://lh5.googleusercontent.com/lAbzDl1HYiYHAEuGnaUw2GdCyQzkZvjWisgNY-ZRYqvRG-X-U7f7cL_UunIF7v5q0BbUSw4CZ-1-xMXs8mvE8fbGa7ghFeEGzuwJ6wiIs64nUgJxkDNEC2JrSTUHEjViRZLdA23NLqI)
+	
 		
