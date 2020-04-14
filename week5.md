@@ -14,6 +14,7 @@
 	답변: 여러 자료를 참조해보면 amount of say(최종 분류에서 해당 stump가 얼마만큼의 영향을 주는지 결정)를 활용하여 계산하는 듯함. 하지만 정확한 것은 아니므로 추후 보강 필요.
 	
 	참고: amount of say = $\frac{1}{2} log\frac{1-total error}{total error}$
+	
    
 ## 책을 보면서 인상적인 부분
 **인상적인 부분** 
@@ -29,9 +30,13 @@
 		
 	변수들끼리 상관관계가 존재하지 않으면,
 	
-	$var[\frac{1}{n}\sum_{i=1}^{n}x_{i}]=\frac{\sigma^2}{n}$	
-	
-- Bias Variance Trade off
+	$var[\frac{1}{n}\sum_{i=1}^{n}x_{i}]=\frac{\sigma^2}{n}$	 
+	   
+	   
+- Bias Variance Trade off  
 ![trade off](https://lh5.googleusercontent.com/lAbzDl1HYiYHAEuGnaUw2GdCyQzkZvjWisgNY-ZRYqvRG-X-U7f7cL_UunIF7v5q0BbUSw4CZ-1-xMXs8mvE8fbGa7ghFeEGzuwJ6wiIs64nUgJxkDNEC2JrSTUHEjViRZLdA23NLqI)
+
+-
+
 	
 		
