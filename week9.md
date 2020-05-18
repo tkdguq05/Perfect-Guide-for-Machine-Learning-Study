@@ -8,6 +8,11 @@
 
 
 ## 흥미로운 점, 질문
-1. 
-2.  	
-   
+1. 왜 cosine similarity에서 dot을 사용하는지 알게 됐다.
+	- matmul : 스칼라 곱이 안됨. 3차원부터 내적값이 달라짐(dot하고 다름). 3차원 matmul하면 3차원. 그래서 tensor 곱할 때는 matmul을 사용함.  
+	- dot : 벡터와 스칼라의 곱이 가능. 3차원 3차원 dot하면 4차원 값. 
+2. Feature importance 구하는 법.   
+	- Permutation importance : 트리 학습 후, 특성 선택 후 변환 함. 값들을 변환했을 때 acc나 loss를 보고 크게 변하면, 이 특성은 중요한 특성임.  
+	- sklearn에서 gini importance(Mean decrease Gine, MDG) : gini impurity이용, 부모 노드 불순도, 자식 노드 불순도를 구해서 부모 불순도 - (왼쪽 자식 불순도 + 오른쪽 자식 불순도) . x feature의 불순도 감소도를 알 수 있음. 감소도의 평균을 구하면 feature importance
+3. 언더 샘플링은 정상 레이블의 학습을 잘 수행할 수 없게 한다는 단점이 있어 잘 사용하지 않는다.  
+4. SMOTE 를 사용하게 되면 1의 레이블이 많이 생성되어, 모델이 1을 찍게 되는 비율이 높아진다. 이는 정밀도를 감소시키고 재현율을 증가시키는 결과를 가져온다. 
