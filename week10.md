@@ -5,6 +5,6 @@
 회귀 식 푸는 시간 가짐, 왜 least squre로 linear regression을 푸는가?  회귀의 가정들  
 Gradient Descent하는 과정을 직접 손으로 구해보자.  
 
-
+실제 구해 봤지만 필기내용이라 패쓰...
 
 
